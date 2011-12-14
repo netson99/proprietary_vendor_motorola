@@ -18,7 +18,9 @@
 PRODUCT_COPY_FILES := \
     vendor/motorola/droid2we/proprietary/lib/libmoto_gps.so:obj/lib/libmoto_gps.so \
     vendor/motorola/droid2we/proprietary/lib/libarcsoft.so:obj/lib/libarcsoft.so \
+    vendor/motorola/droid2we/proprietary/lib/liba2dp.so:obj/lib/liba2dp.so \
     vendor/motorola/droid2we/proprietary/lib/libaudio.so:obj/lib/libaudio.so \
+    vendor/motorola/droid2we/proprietary/lib/libaudiopolicy.so:obj/lib/libaudiopolicy.so \
     vendor/motorola/droid2we/proprietary/lib/libcamera.so:obj/lib/libcamera.so \
     vendor/motorola/droid2we/proprietary/lib/libnmea.so:obj/lib/libnmea.so \
     vendor/motorola/droid2we/proprietary/lib/libril_rds.so:obj/lib/libril_rds.so \
