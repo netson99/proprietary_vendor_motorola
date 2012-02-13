@@ -30,8 +30,11 @@ PRODUCT_COPY_FILES := \
 
 PRODUCT_COPY_FILES += \
     vendor/motorola/droid2we/proprietary/app/PhoneConfig.apk:/system/app/PhoneConfig.apk \
+    vendor/motorola/droid2we/proprietary/app/Usb.apk:/system/app/Usb.apk \
+    vendor/motorola/droid2we/proprietary/app/GlobalNwSwitch.apk:/system/app/GlobalNwSwitch.apk \
+    vendor/motorola/droid2we/proprietary/app/FileManager.apk:/system/app/FileManager.apk \
     vendor/motorola/droid2we/proprietary/app/ProgramMenu.apk:/system/app/ProgramMenu.apk \
-    vendor/motorola/droid2we/proprietary/app/ProgramMenuSystem.apk:/system/app/ProgramMenuSystem.apk \
+    vendor/motorola/droid2we/proprietary/app/ProgramMenuSystem.apk:/system/app/ProgramMenuSystem.apk
 
 # All the blobs necessary for droid2we
 PRODUCT_COPY_FILES += \
@@ -153,7 +156,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/droid2we/proprietary/lib/libpanorama.so:/system/lib/libpanorama.so \
     vendor/motorola/droid2we/proprietary/lib/libpanorama_jni.so:/system/lib/libpanorama_jni.so \
     vendor/motorola/droid2we/proprietary/lib/libpkip.so:/system/lib/libpkip.so \
-    vendor/motorola/droid2we/proprietary/lib/libpppd_plugin-ril.so:/system/lib/libpppd_plugin-ril.so \
     vendor/motorola/droid2we/proprietary/lib/libpppd_plugin.so:/system/lib/libpppd_plugin.so \
     vendor/motorola/droid2we/proprietary/lib/libprojectM.so:/system/lib/libprojectM.so \
     vendor/motorola/droid2we/proprietary/lib/libprovlib.so:/system/lib/libprovlib.so \
@@ -184,8 +186,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/droid2we/proprietary/lib/libLCML.so:/system/lib/libLCML.so \
     vendor/motorola/droid2we/proprietary/lib/libmoto_ril.so:/system/lib/libmoto_ril.so \
     vendor/motorola/droid2we/proprietary/lib/libpppd_plugin-ril.so:/system/lib/libpppd_plugin-ril.so \
-    vendor/motorola/droid2we/proprietary/lib/libril.so:/system/lib/libril.so \
-    vendor/motorola/droid2we/proprietary/lib/libril_rds.so:/system/lib/libril_rds.so \
     vendor/motorola/droid2we/proprietary/lib/libbattd.so:/system/lib/libattd.so \
     vendor/motorola/droid2we/proprietary/bin/battd.so:/system/bin/battd \
     vendor/motorola/droid2we/proprietary/lib/libusc.so:/system/lib/libusc.so \
