@@ -56,6 +56,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shadow/proprietary/bin/ecckeyd:/system/bin/ecckeyd \
     vendor/motorola/shadow/proprietary/bin/fdisk:/system/bin/fdisk \
     vendor/motorola/shadow/proprietary/bin/firewall.sh:/system/bin/firewall.sh \
+    vendor/motorola/shadow/proprietary/bin/fmradioserver:/system/bin/fmradioserver \
     vendor/motorola/shadow/proprietary/bin/ftmipcd:/system/bin/ftmipcd \
     vendor/motorola/shadow/proprietary/bin/gkilogd:/system/bin/gkilogd \
     vendor/motorola/shadow/proprietary/bin/loadpreinstalls.sh:/system/bin/loadpreinstalls.sh \
@@ -74,6 +75,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shadow/proprietary/etc/amazon-kindle.properties:/system/etc/amazon-kindle.properties \
     vendor/motorola/shadow/proprietary/etc/backup_targets.csv:/system/etc/backup_targets.csv \
     vendor/motorola/shadow/proprietary/etc/cameraCalFileDef5M.bin:/system/etc/cameraCalFileDef5M.bin \
+    vendor/motorola/shadow/proprietary/etc/cameraCalFileDef8M.bin:/system/etc/cameraCalFileDef8M.bin \
     vendor/motorola/shadow/proprietary/etc/excluded-input-devices.xml:/system/etc/excluded-input-devices.xml \
     vendor/motorola/shadow/proprietary/etc/firmware/ap_bt_data.bin:/system/etc/firmware/ap_bt_data.bin \
     vendor/motorola/shadow/proprietary/etc/firmware/wl1271.bin:/system/etc/firmware/wl1271.bin \
@@ -102,10 +104,14 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shadow/proprietary/lib/dsp/conversions.dll64P:/system/lib/dsp/conversions.dll64P \
     vendor/motorola/shadow/proprietary/lib/dsp/h264vdec_sn.dll64P:/system/lib/dsp/h264vdec_sn.dll64P \
     vendor/motorola/shadow/proprietary/lib/dsp/h264venc_sn.dll64P:/system/lib/dsp/h264venc_sn.dll64P \
+    vendor/motorola/shadow/proprietary/lib/dsp/720p_h264vdec_sn.dll64P:/system/lib/dsp/720p_h264vdec_sn.dll64P \
+    vendor/motorola/shadow/proprietary/lib/dsp/720p_h264venc_sn.dll64P:/system/lib/dsp/720p_h264venc_sn.dll64P \
     vendor/motorola/shadow/proprietary/lib/dsp/jpegenc_sn.dll64P:/system/lib/dsp/jpegenc_sn.dll64P \
     vendor/motorola/shadow/proprietary/lib/dsp/m4venc_sn.dll64P:/system/lib/dsp/m4venc_sn.dll64P \
+    vendor/motorola/shadow/proprietary/lib/dsp/m4venc_sn.dll64P:/system/lib/dsp/720p_m4venc_sn.dll64P \
     vendor/motorola/shadow/proprietary/lib/dsp/mp3dec_sn.dll64P:/system/lib/dsp/mp3dec_sn.dll64P \
     vendor/motorola/shadow/proprietary/lib/dsp/mp4vdec_sn.dll64P:/system/lib/dsp/mp4vdec_sn.dll64P \
+    vendor/motorola/shadow/proprietary/lib/dsp/mp4vdec_sn.dll64P:/system/lib/dsp/720p_mp4vdec_sn.dll64P \
     vendor/motorola/shadow/proprietary/lib/dsp/mpeg4aacdec_sn.dll64P:/system/lib/dsp/mpeg4aacdec_sn.dll64P \
     vendor/motorola/shadow/proprietary/lib/dsp/mpeg4aacenc_sn.dll64P:/system/lib/dsp/mpeg4aacenc_sn.dll64P \
     vendor/motorola/shadow/proprietary/lib/dsp/nbamrdec_sn.dll64P:/system/lib/dsp/nbamrdec_sn.dll64P \
@@ -118,6 +124,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shadow/proprietary/lib/dsp/wmadec_sn.dll64P:/system/lib/dsp/wmadec_sn.dll64P \
     vendor/motorola/shadow/proprietary/lib/dsp/wmv9dec_sn.dll64P:/system/lib/dsp/wmv9dec_sn.dll64P \
     vendor/motorola/shadow/proprietary/lib/libOMX.TI.AAC.decode.so:/system/lib/libOMX.TI.AAC.decode.so \
+    vendor/motorola/shadow/proprietary/lib/libOMX.TI.720P.Decoder.so:/system/lib/libOMX.TI.720P.Decoder.so \
     vendor/motorola/shadow/proprietary/lib/libOMX.TI.AMR.decode.so:/system/lib/libOMX.TI.AMR.decode.so \
     vendor/motorola/shadow/proprietary/lib/libOMX.TI.MP3.decode.so:/system/lib/libOMX.TI.MP3.decode.so \
     vendor/motorola/shadow/proprietary/lib/libOMX.TI.WBAMR.decode.so:/system/lib/libOMX.TI.WBAMR.decode.so \
