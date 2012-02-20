@@ -31,6 +31,7 @@ PRODUCT_COPY_FILES := \
 PRODUCT_COPY_FILES += \
     vendor/motorola/shadow/proprietary/app/PhoneConfig.apk:/system/app/PhoneConfig.apk \
     vendor/motorola/shadow/proprietary/app/Usb.apk:/system/app/Usb.apk \
+    vendor/motorola/shadow/proprietary/app/ExtDispService.apk:/system/app/ExtDispService.apk \
     vendor/motorola/shadow/proprietary/app/FileManager.apk:/system/app/FileManager.apk \
     vendor/motorola/shadow/proprietary/app/ProgramMenu.apk:/system/app/ProgramMenu.apk \
     vendor/motorola/shadow/proprietary/app/ProgramMenuSystem.apk:/system/app/ProgramMenuSystem.apk
@@ -100,6 +101,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shadow/proprietary/etc/wifi/tiwlan.ini:/system/etc/wifi/tiwlan.ini \
     vendor/motorola/shadow/proprietary/etc/wifi/tiwlan_ap.ini:/system/etc/wifi/tiwlan_ap.ini \
     vendor/motorola/shadow/proprietary/etc/wifi/wpa_supplicant.conf:/system/etc/wifi/wpa_supplicant.conf \
+    vendor/motorola/shadow/proprietary/etc/permissions/com.motorola.android.iextdispservice.xml:/system/etc/permissions/com.motorola.android.iextdispservice.xml \
+    vendor/motorola/shadow/proprietary/etc/permissions/com.motorola.android.nativehdmiapis_v1.xml:/system/etc/permissions/com.motorola.android.nativehdmiapis_v1.xml \
+    vendor/motorola/shadow/proprietary/framework/com.motorola.android.iextdispservice.jar:/system/framework/com.motorola.android.iextdispservice.jar \
+    vendor/motorola/shadow/proprietary/framework/com.motorola.android.nativehdmiapis_v1.jar:/system/framework/com.motorola.android.nativehdmiapis_v1.jar \
     vendor/motorola/shadow/proprietary/lib/dsp/baseimage.dof:/system/lib/dsp/baseimage.dof \
     vendor/motorola/shadow/proprietary/lib/dsp/conversions.dll64P:/system/lib/dsp/conversions.dll64P \
     vendor/motorola/shadow/proprietary/lib/dsp/h264vdec_sn.dll64P:/system/lib/dsp/h264vdec_sn.dll64P \
@@ -137,7 +142,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shadow/proprietary/lib/libcryptoki.so:/system/lib/libcryptoki.so \
     vendor/motorola/shadow/proprietary/lib/libdmengine.so:/system/lib/libdmengine.so \
     vendor/motorola/shadow/proprietary/lib/libdmjavaplugin.so:/system/lib/libdmjavaplugin.so \
+    vendor/motorola/shadow/proprietary/lib/libextdisp.so:/system/lib/libextdisp.so \
     vendor/motorola/shadow/proprietary/lib/libglslcompiler.so:/system/lib/libglslcompiler.so \
+    vendor/motorola/shadow/proprietary/lib/libhdmi.so:/system/lib/libhdmi.so \
     vendor/motorola/shadow/proprietary/lib/libhostapd_client.so:/system/lib/libhostapd_client.so \
     vendor/motorola/shadow/proprietary/lib/libimage_jni.so:/system/lib/libimage_jni.so \
     vendor/motorola/shadow/proprietary/lib/libjanus.so:/system/lib/libjanus.so \
