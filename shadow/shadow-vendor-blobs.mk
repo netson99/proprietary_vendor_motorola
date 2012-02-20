@@ -101,6 +101,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shadow/proprietary/etc/wifi/tiwlan.ini:/system/etc/wifi/tiwlan.ini \
     vendor/motorola/shadow/proprietary/etc/wifi/tiwlan_ap.ini:/system/etc/wifi/tiwlan_ap.ini \
     vendor/motorola/shadow/proprietary/etc/wifi/wpa_supplicant.conf:/system/etc/wifi/wpa_supplicant.conf \
+    vendor/motorola/shadow/proprietary/etc/permissions/platform.xml:/system/etc/permissions/platform.xml \
     vendor/motorola/shadow/proprietary/etc/permissions/com.motorola.android.iextdispservice.xml:/system/etc/permissions/com.motorola.android.iextdispservice.xml \
     vendor/motorola/shadow/proprietary/etc/permissions/com.motorola.android.nativehdmiapis_v1.xml:/system/etc/permissions/com.motorola.android.nativehdmiapis_v1.xml \
     vendor/motorola/shadow/proprietary/framework/com.motorola.android.iextdispservice.jar:/system/framework/com.motorola.android.iextdispservice.jar \
