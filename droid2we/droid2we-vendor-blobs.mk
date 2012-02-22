@@ -190,6 +190,4 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/droid2we/proprietary/lib/libusc.so:/system/lib/libusc.so \
     vendor/motorola/droid2we/proprietary/lib/hw/lights.droid2we.so:/system/lib/hw/lights.droid2we.so \
     vendor/motorola/droid2we/proprietary/lib/hw/sensors.droid2we.so:/system/lib/hw/sensors.droid2we.so \
-    vendor/motorola/droid2we/proprietary/lib/hw/gps.droid2we.so:/system/lib/hw/gps.droid2we.so \
-    vendor/motorola/droid2we/proprietary/lib/hw/overlay.omap3.so:/system/lib/hw/overlay.omap3.so
-
+    vendor/motorola/droid2we/proprietary/lib/hw/gps.droid2we.so:/system/lib/hw/gps.droid2we.so
