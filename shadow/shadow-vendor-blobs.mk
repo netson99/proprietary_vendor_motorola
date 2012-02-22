@@ -205,6 +205,5 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shadow/proprietary/lib/libusc.so:/system/lib/libusc.so \
     vendor/motorola/shadow/proprietary/lib/hw/lights.shadow.so:/system/lib/hw/lights.shadow.so \
     vendor/motorola/shadow/proprietary/lib/hw/sensors.shadow.so:/system/lib/hw/sensors.shadow.so \
-    vendor/motorola/shadow/proprietary/lib/hw/gps.shadow.so:/system/lib/hw/gps.shadow.so \
-    vendor/motorola/shadow/proprietary/lib/hw/overlay.omap3.so:/system/lib/hw/overlay.omap3.so
+    vendor/motorola/shadow/proprietary/lib/hw/gps.shadow.so:/system/lib/hw/gps.shadow.so 
 
