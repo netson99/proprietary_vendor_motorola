@@ -16,28 +16,27 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES := \
-    vendor/motorola/droid2we/proprietary/lib/libmoto_gps.so:obj/lib/libmoto_gps.so \
-    vendor/motorola/droid2we/proprietary/lib/libarcsoft.so:obj/lib/libarcsoft.so \
     vendor/motorola/droid2we/proprietary/lib/liba2dp.so:obj/lib/liba2dp.so \
+    vendor/motorola/droid2we/proprietary/lib/libarcsoft.so:obj/lib/libarcsoft.so \
     vendor/motorola/droid2we/proprietary/lib/libaudio.so:obj/lib/libaudio.so \
     vendor/motorola/droid2we/proprietary/lib/libaudiopolicy.so:obj/lib/libaudiopolicy.so \
     vendor/motorola/droid2we/proprietary/lib/libcamera.so:obj/lib/libcamera.so \
+	vendor/motorola/droid2we/proprietary/lib/libmoto_gps.so:obj/lib/libmoto_gps.so \
     vendor/motorola/droid2we/proprietary/lib/libnmea.so:obj/lib/libnmea.so \
+	vendor/motorola/droid2we/proprietary/lib/librds_util.so:obj/lib/librds_util.so \
     vendor/motorola/droid2we/proprietary/lib/libril_rds.so:obj/lib/libril_rds.so \
-    vendor/motorola/droid2we/proprietary/lib/librds_util.so:obj/lib/librds_util.so \
     vendor/motorola/droid2we/proprietary/lib/libsmiledetect.so:obj/lib/libsmiledetect.so
-#    vendor/motorola/droid2we/proprietary/lib/hw/gralloc.omap3.so:obj/lib/hw/gralloc.omap3.so
 
+# Prebuilt APKs
 PRODUCT_COPY_FILES += \
-    vendor/motorola/droid2we/proprietary/app/PhoneConfig.apk:/system/app/PhoneConfig.apk \
-    vendor/motorola/droid2we/proprietary/app/Usb.apk:/system/app/Usb.apk \
     vendor/motorola/droid2we/proprietary/app/FileManager.apk:/system/app/FileManager.apk \
-    vendor/motorola/droid2we/proprietary/app/ProgramMenu.apk:/system/app/ProgramMenu.apk \
-    vendor/motorola/droid2we/proprietary/app/ProgramMenuSystem.apk:/system/app/ProgramMenuSystem.apk
+    vendor/motorola/droid2we/proprietary/app/PhoneConfig.apk:/system/app/PhoneConfig.apk \
+	vendor/motorola/droid2we/proprietary/app/ProgramMenu.apk:/system/app/ProgramMenu.apk \
+	vendor/motorola/droid2we/proprietary/app/ProgramMenuSystem.apk:/system/app/ProgramMenuSystem.apk \
+    vendor/motorola/droid2we/proprietary/app/Usb.apk:/system/app/Usb.apk
 
-# All the blobs necessary for droid2we
+# Prebuilt binaries and services
 PRODUCT_COPY_FILES += \
-    vendor/motorola/droid2we/proprietary/lib/libmoto_gps.so:/system/lib/libmoto_gps.so \
     vendor/motorola/droid2we/proprietary/bin/Hostapd:/system/bin/Hostapd \
     vendor/motorola/droid2we/proprietary/bin/SaveBPVer:/system/bin/SaveBPVer \
     vendor/motorola/droid2we/proprietary/bin/akmd2:/system/bin/akmd2 \
@@ -144,8 +143,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/droid2we/proprietary/lib/libmot_led.so:/system/lib/libmot_led.so \
     vendor/motorola/droid2we/proprietary/lib/libmotdrm1.so:/system/lib/libmotdrm1.so \
     vendor/motorola/droid2we/proprietary/lib/libmotdrm1_jni.so:/system/lib/libmotdrm1_jni.so \
+	vendor/motorola/droid2we/proprietary/lib/libmoto_gps.so:/system/lib/libmoto_gps.so \
     vendor/motorola/droid2we/proprietary/lib/libmoto_netutil.so:/system/lib/libmoto_netutil.so \
-    vendor/motorola/droid2we/proprietary/lib/libmoto_ril.so:/system/lib/libmoto_ril.so \
     vendor/motorola/droid2we/proprietary/lib/libmotodbgutils.so:/system/lib/libmotodbgutils.so \
     vendor/motorola/droid2we/proprietary/lib/libmtp_jni.so:/system/lib/libmtp_jni.so \
     vendor/motorola/droid2we/proprietary/lib/libmtpstack.so:/system/lib/libmtpstack.so \
@@ -174,20 +173,23 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/droid2we/proprietary/xbin/drm1_func_test:/system/xbin/drm1_func_test \
     vendor/motorola/droid2we/proprietary/xbin/run_backup:/system/xbin/run_backup \
     vendor/motorola/droid2we/proprietary/xbin/run_restore:/system/xbin/run_restore \
-    vendor/motorola/droid2we/proprietary/xbin/ssmgrd:/system/xbin/ssmgrd \
+    vendor/motorola/droid2we/proprietary/xbin/ssmgrd:/system/xbin/ssmgrd
+
+# Hardware libraries
+PRODUCT_COPY_FILES += \	
+    vendor/motorola/droid2we/proprietary/bin/battd.so:/system/bin/battd \
     vendor/motorola/droid2we/proprietary/lib/libaudio.so:/system/lib/libaudio.so \
+	vendor/motorola/droid2we/proprietary/lib/libbattd.so:/system/lib/libattd.so \
+	vendor/motorola/droid2we/proprietary/lib/libbridge.so:/system/lib/libbridge.so \
     vendor/motorola/droid2we/proprietary/lib/libcamera.so:/system/lib/libcamera.so \
+	vendor/motorola/droid2we/proprietary/lib/libmoto_ril.so:/system/lib/libmoto_ril.so \
     vendor/motorola/droid2we/proprietary/lib/libnmea.so:/system/lib/libnmea.so \
+	vendor/motorola/droid2we/proprietary/lib/libpppd_plugin-ril.so:/system/lib/libpppd_plugin-ril.so \
     vendor/motorola/droid2we/proprietary/lib/libril_rds.so:/system/lib/libril_rds.so \
     vendor/motorola/droid2we/proprietary/lib/librds_util.so:/system/lib/librds_util.so \
     vendor/motorola/droid2we/proprietary/lib/libsmiledetect.so:/system/lib/libsmiledetect.so \
-    vendor/motorola/droid2we/proprietary/lib/libbridge.so:/system/lib/libbridge.so \
+	vendor/motorola/droid2we/proprietary/lib/libusc.so:/system/lib/libusc.so \
     vendor/motorola/droid2we/proprietary/lib/libLCML.so:/system/lib/libLCML.so \
-    vendor/motorola/droid2we/proprietary/lib/libmoto_ril.so:/system/lib/libmoto_ril.so \
-    vendor/motorola/droid2we/proprietary/lib/libpppd_plugin-ril.so:/system/lib/libpppd_plugin-ril.so \
-    vendor/motorola/droid2we/proprietary/lib/libbattd.so:/system/lib/libattd.so \
-    vendor/motorola/droid2we/proprietary/bin/battd.so:/system/bin/battd \
-    vendor/motorola/droid2we/proprietary/lib/libusc.so:/system/lib/libusc.so \
     vendor/motorola/droid2we/proprietary/lib/hw/lights.droid2we.so:/system/lib/hw/lights.droid2we.so \
     vendor/motorola/droid2we/proprietary/lib/hw/sensors.droid2we.so:/system/lib/hw/sensors.droid2we.so \
     vendor/motorola/droid2we/proprietary/lib/hw/gps.droid2we.so:/system/lib/hw/gps.droid2we.so
