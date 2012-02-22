@@ -176,7 +176,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/droid2we/proprietary/xbin/ssmgrd:/system/xbin/ssmgrd
 
 # Hardware libraries
-PRODUCT_COPY_FILES += \	
+PRODUCT_COPY_FILES += \
     vendor/motorola/droid2we/proprietary/bin/battd.so:/system/bin/battd \
     vendor/motorola/droid2we/proprietary/lib/libaudio.so:/system/lib/libaudio.so \
     vendor/motorola/droid2we/proprietary/lib/libbattd.so:/system/lib/libattd.so \
