@@ -58,6 +58,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/droid2/proprietary/bin/ecckeyd:/system/bin/ecckeyd \
     vendor/motorola/droid2/proprietary/bin/fdisk:/system/bin/fdisk \
     vendor/motorola/droid2/proprietary/bin/firewall.sh:/system/bin/firewall.sh \
+    vendor/motorola/droid2/proprietary/bin/fmradioserver:/system/bin/fmradioserver \
     vendor/motorola/droid2/proprietary/bin/ftmipcd:/system/bin/ftmipcd \
     vendor/motorola/droid2/proprietary/bin/gkilogd:/system/bin/gkilogd \
     vendor/motorola/droid2/proprietary/bin/loadpreinstalls.sh:/system/bin/loadpreinstalls.sh \
