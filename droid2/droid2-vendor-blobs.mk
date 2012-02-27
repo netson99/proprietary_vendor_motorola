@@ -34,7 +34,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/droid2/proprietary/app/FileManager.apk:/system/app/FileManager.apk \
     vendor/motorola/droid2/proprietary/app/ProgramMenu.apk:/system/app/ProgramMenu.apk \
     vendor/motorola/droid2/proprietary/app/ProgramMenuSystem.apk:/system/app/ProgramMenuSystem.apk \
-    vendor/motorola/droid2/proprietary/app/MotoFMRadio.apk:/system/app/MotoFMRadio.apk \
+    vendor/motorola/droid2/proprietary/app/FMRadio.apk:/system/app/FMRadio.apk \
     vendor/motorola/droid2/proprietary/app/FMRadioService.apk:/system/app/FMRadioService.apk
 
 # All the blobs necessary for droid2

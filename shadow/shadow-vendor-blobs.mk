@@ -35,7 +35,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shadow/proprietary/app/FileManager.apk:/system/app/FileManager.apk \
     vendor/motorola/shadow/proprietary/app/ProgramMenu.apk:/system/app/ProgramMenu.apk \
     vendor/motorola/shadow/proprietary/app/ProgramMenuSystem.apk:/system/app/ProgramMenuSystem.apk \
-    vendor/motorola/shadow/proprietary/app/MotoFMRadio.apk:/system/app/MotoFMRadio.apk \
+    vendor/motorola/shadow/proprietary/app/FMRadio.apk:/system/app/FMRadio.apk \
     vendor/motorola/shadow/proprietary/app/FMRadioService.apk:/system/app/FMRadioService.apk
 
 # All the blobs necessary for shadow
