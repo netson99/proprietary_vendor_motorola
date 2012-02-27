@@ -191,6 +191,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/droid2/proprietary/lib/libbattd.so:/system/lib/libattd.so \
     vendor/motorola/droid2/proprietary/bin/battd.so:/system/bin/battd \
     vendor/motorola/droid2/proprietary/lib/libusc.so:/system/lib/libusc.so \
+    vendor/motorola/droid2/proprietary/lib/libFMRadio.so:system/lib/libFMRadio.so \
+    vendor/motorola/droid2/proprietary/lib/libfmradio_jni.so:system/lib/libfmradio_jni.so \
+    vendor/motorola/droid2/proprietary/lib/libfmradioplayer.so:system/lib/libfmradioplayer.so \
     vendor/motorola/droid2/proprietary/lib/hw/lights.droid2.so:/system/lib/hw/lights.droid2.so \
     vendor/motorola/droid2/proprietary/lib/hw/sensors.droid2.so:/system/lib/hw/sensors.droid2.so \
     vendor/motorola/droid2/proprietary/lib/hw/gps.droid2.so:/system/lib/hw/gps.droid2.so 
