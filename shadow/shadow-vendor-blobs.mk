@@ -205,6 +205,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shadow/proprietary/lib/libbattd.so:/system/lib/libattd.so \
     vendor/motorola/shadow/proprietary/bin/battd.so:/system/bin/battd \
     vendor/motorola/shadow/proprietary/lib/libusc.so:/system/lib/libusc.so \
+    vendor/motorola/shadow/lib/libFMRadio.so:system/lib/libFMRadio.so \
+    vendor/motorola/shadow/lib/libfmradio_jni.so:system/lib/libfmradio_jni.so \
+    vendor/motorola/shadow/lib/libfmradioplayer.so:system/lib/libfmradioplayer.so \
     vendor/motorola/shadow/proprietary/lib/hw/lights.shadow.so:/system/lib/hw/lights.shadow.so \
     vendor/motorola/shadow/proprietary/lib/hw/sensors.shadow.so:/system/lib/hw/sensors.shadow.so \
     vendor/motorola/shadow/proprietary/lib/hw/gps.shadow.so:/system/lib/hw/gps.shadow.so 
