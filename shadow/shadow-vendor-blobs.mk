@@ -29,20 +29,18 @@ PRODUCT_COPY_FILES := \
 #    vendor/motorola/shadow/proprietary/lib/hw/gralloc.omap3.so:obj/lib/hw/gralloc.omap3.so
 
 PRODUCT_COPY_FILES += \
-    vendor/motorola/shadow/proprietary/app/PhoneConfig.apk:/system/app/PhoneConfig.apk \
-    vendor/motorola/shadow/proprietary/app/Usb.apk:/system/app/Usb.apk \
     vendor/motorola/shadow/proprietary/app/ExtDispService.apk:/system/app/ExtDispService.apk \
     vendor/motorola/shadow/proprietary/app/FileManager.apk:/system/app/FileManager.apk \
+    vendor/motorola/shadow/proprietary/app/FMRadio.apk:/system/app/FMRadio.apk \
+    vendor/motorola/shadow/proprietary/app/FMRadioService.apk:/system/app/FMRadioService.apk \
+    vendor/motorola/shadow/proprietary/app/PhoneConfig.apk:/system/app/PhoneConfig.apk \
     vendor/motorola/shadow/proprietary/app/ProgramMenu.apk:/system/app/ProgramMenu.apk \
     vendor/motorola/shadow/proprietary/app/ProgramMenuSystem.apk:/system/app/ProgramMenuSystem.apk \
-    vendor/motorola/shadow/proprietary/app/FMRadio.apk:/system/app/FMRadio.apk \
-    vendor/motorola/shadow/proprietary/app/FMRadioService.apk:/system/app/FMRadioService.apk
+    vendor/motorola/shadow/proprietary/app/Torch.apk:/system/app/Torch.apk \
+    vendor/motorola/shadow/proprietary/app/Usb.apk:/system/app/Usb.apk 
 
 # All the blobs necessary for shadow
 PRODUCT_COPY_FILES += \
-    vendor/motorola/shadow/proprietary/lib/libmoto_gps.so:/system/lib/libmoto_gps.so \
-    vendor/motorola/shadow/proprietary/bin/Hostapd:/system/bin/Hostapd \
-    vendor/motorola/shadow/proprietary/bin/SaveBPVer:/system/bin/SaveBPVer \
     vendor/motorola/shadow/proprietary/bin/akmd2:/system/bin/akmd2 \
     vendor/motorola/shadow/proprietary/bin/ap_gain.bin:/system/bin/ap_gain.bin \
     vendor/motorola/shadow/proprietary/bin/ap_gain_mmul.bin:/system/bin/ap_gain_mmul.bin \
@@ -62,11 +60,13 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shadow/proprietary/bin/fmradioserver:/system/bin/fmradioserver \
     vendor/motorola/shadow/proprietary/bin/ftmipcd:/system/bin/ftmipcd \
     vendor/motorola/shadow/proprietary/bin/gkilogd:/system/bin/gkilogd \
+    vendor/motorola/shadow/proprietary/bin/Hostapd:/system/bin/Hostapd \
     vendor/motorola/shadow/proprietary/bin/loadpreinstalls.sh:/system/bin/loadpreinstalls.sh \
     vendor/motorola/shadow/proprietary/bin/mdm_panicd:/system/bin/mdm_panicd \
     vendor/motorola/shadow/proprietary/bin/napics.sh:/system/bin/napics.sh \
     vendor/motorola/shadow/proprietary/bin/pppd:/system/bin/pppd \
     vendor/motorola/shadow/proprietary/bin/pppd-ril:/system/bin/pppd-ril \
+    vendor/motorola/shadow/proprietary/bin/SaveBPVer:/system/bin/SaveBPVer \
     vendor/motorola/shadow/proprietary/bin/secclkd:/system/bin/secclkd \
     vendor/motorola/shadow/proprietary/bin/smc_pa_ctrl:/system/bin/smc_pa_ctrl \
     vendor/motorola/shadow/proprietary/bin/smoduled:/system/bin/smoduled \
@@ -75,7 +75,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shadow/proprietary/bin/testpppd:/system/bin/testpppd \
     vendor/motorola/shadow/proprietary/bin/tstmetainfo:/system/bin/tstmetainfo \
     vendor/motorola/shadow/proprietary/bin/usbd:/system/bin/usbd \
-    vendor/motorola/shadow/proprietary/etc/amazon-kindle.properties:/system/etc/amazon-kindle.properties \
     vendor/motorola/shadow/proprietary/etc/backup_targets.csv:/system/etc/backup_targets.csv \
     vendor/motorola/shadow/proprietary/etc/cameraCalFileDef5M.bin:/system/etc/cameraCalFileDef5M.bin \
     vendor/motorola/shadow/proprietary/etc/cameraCalFileDef8M.bin:/system/etc/cameraCalFileDef8M.bin \
@@ -87,7 +86,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shadow/proprietary/etc/fmc_init_1273.2.bts:/system/etc/fmc_init_1273.2.bts \
     vendor/motorola/shadow/proprietary/etc/fmc_init_6450.2.bts:/system/etc/fmc_init_6450.2.bts \
     vendor/motorola/shadow/proprietary/etc/pppd-ril.options:/system/etc/ppp/peers/pppd-ril.options \
-    vendor/motorola/shadow/proprietary/etc/priority_notifications_config.xml:/system/etc/priority_notifications_config.xml \
     vendor/motorola/shadow/proprietary/etc/mancacerts.zip:/system/etc/security/mancacerts.zip \
     vendor/motorola/shadow/proprietary/etc/oprcacerts.zip:/system/etc/security/oprcacerts.zip \
     vendor/motorola/shadow/proprietary/etc/suplcerts.bks:/system/etc/security/suplcerts.bks \
@@ -161,6 +159,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shadow/proprietary/lib/libmot_led.so:/system/lib/libmot_led.so \
     vendor/motorola/shadow/proprietary/lib/libmotdrm1.so:/system/lib/libmotdrm1.so \
     vendor/motorola/shadow/proprietary/lib/libmotdrm1_jni.so:/system/lib/libmotdrm1_jni.so \
+    vendor/motorola/shadow/proprietary/lib/libmoto_gps.so:/system/lib/libmoto_gps.so \
     vendor/motorola/shadow/proprietary/lib/libmoto_netutil.so:/system/lib/libmoto_netutil.so \
     vendor/motorola/shadow/proprietary/lib/libmoto_ril.so:/system/lib/libmoto_ril.so \
     vendor/motorola/shadow/proprietary/lib/libmotodbgutils.so:/system/lib/libmotodbgutils.so \
@@ -200,10 +199,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shadow/proprietary/lib/libsmiledetect.so:/system/lib/libsmiledetect.so \
     vendor/motorola/shadow/proprietary/lib/libbridge.so:/system/lib/libbridge.so \
     vendor/motorola/shadow/proprietary/lib/libLCML.so:/system/lib/libLCML.so \
-    vendor/motorola/shadow/proprietary/lib/libmoto_ril.so:/system/lib/libmoto_ril.so \
     vendor/motorola/shadow/proprietary/lib/libpppd_plugin-ril.so:/system/lib/libpppd_plugin-ril.so \
-    vendor/motorola/shadow/proprietary/lib/libbattd.so:/system/lib/libattd.so \
-    vendor/motorola/shadow/proprietary/bin/battd.so:/system/bin/battd \
     vendor/motorola/shadow/proprietary/lib/libusc.so:/system/lib/libusc.so \
     vendor/motorola/shadow/proprietary/lib/libFMRadio.so:system/lib/libFMRadio.so \
     vendor/motorola/shadow/proprietary/lib/libfmradio_jni.so:system/lib/libfmradio_jni.so \
