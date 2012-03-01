@@ -49,7 +49,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shadow/proprietary/bin/btcmd:/system/bin/btcmd \
     vendor/motorola/shadow/proprietary/bin/bthelp:/system/bin/bthelp \
     vendor/motorola/shadow/proprietary/bin/bttest_mot:/system/bin/bttest_mot \
-    vendor/motorola/shadow/proprietary/bin/charge_only_mode:/system/bin/charge_only_mode \
     vendor/motorola/shadow/proprietary/bin/chat-ril:/system/bin/chat-ril \
     vendor/motorola/shadow/proprietary/bin/dbvc_atvc_property_set:/system/bin/dbvc_atvc_property_set \
     vendor/motorola/shadow/proprietary/bin/dmt:/system/bin/dmt \
@@ -129,12 +128,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shadow/proprietary/lib/dsp/wbamrenc_sn.dll64P:/system/lib/dsp/wbamrenc_sn.dll64P \
     vendor/motorola/shadow/proprietary/lib/dsp/wmadec_sn.dll64P:/system/lib/dsp/wmadec_sn.dll64P \
     vendor/motorola/shadow/proprietary/lib/dsp/wmv9dec_sn.dll64P:/system/lib/dsp/wmv9dec_sn.dll64P \
-    vendor/motorola/shadow/proprietary/lib/libOMX.TI.AAC.decode.so:/system/lib/libOMX.TI.AAC.decode.so \
-    vendor/motorola/shadow/proprietary/lib/libOMX.TI.720P.Decoder.so:/system/lib/libOMX.TI.720P.Decoder.so \
-    vendor/motorola/shadow/proprietary/lib/libOMX.TI.AMR.decode.so:/system/lib/libOMX.TI.AMR.decode.so \
-    vendor/motorola/shadow/proprietary/lib/libOMX.TI.MP3.decode.so:/system/lib/libOMX.TI.MP3.decode.so \
-    vendor/motorola/shadow/proprietary/lib/libOMX.TI.WBAMR.decode.so:/system/lib/libOMX.TI.WBAMR.decode.so \
-    vendor/motorola/shadow/proprietary/lib/libOMX.TI.WMA.decode.so:/system/lib/libOMX.TI.WMA.decode.so \
     vendor/motorola/shadow/proprietary/lib/libWifiAPHardware.so:/system/lib/libWifiAPHardware.so \
     vendor/motorola/shadow/proprietary/lib/libarcsoftpe.so:/system/lib/libarcsoftpe.so \
     vendor/motorola/shadow/proprietary/lib/libarcsoft.so:/system/lib/libarcsoft.so \
@@ -167,7 +160,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shadow/proprietary/lib/libmtpstack.so:/system/lib/libmtpstack.so \
     vendor/motorola/shadow/proprietary/lib/libnativedrm1.so:/system/lib/libnativedrm1.so \
     vendor/motorola/shadow/proprietary/lib/liboemcamera.so:/system/lib/liboemcamera.so \
-    vendor/motorola/shadow/proprietary/lib/libomx_arcomxcore_sharedlibrary.so:/system/lib/libomx_arcomxcore_sharedlibrary.so \
     vendor/motorola/shadow/proprietary/lib/libpanorama.so:/system/lib/libpanorama.so \
     vendor/motorola/shadow/proprietary/lib/libpanorama_jni.so:/system/lib/libpanorama_jni.so \
     vendor/motorola/shadow/proprietary/lib/libpkip.so:/system/lib/libpkip.so \
@@ -198,7 +190,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shadow/proprietary/lib/librds_util.so:/system/lib/librds_util.so \
     vendor/motorola/shadow/proprietary/lib/libsmiledetect.so:/system/lib/libsmiledetect.so \
     vendor/motorola/shadow/proprietary/lib/libbridge.so:/system/lib/libbridge.so \
-    vendor/motorola/shadow/proprietary/lib/libLCML.so:/system/lib/libLCML.so \
     vendor/motorola/shadow/proprietary/lib/libpppd_plugin-ril.so:/system/lib/libpppd_plugin-ril.so \
     vendor/motorola/shadow/proprietary/lib/libusc.so:/system/lib/libusc.so \
     vendor/motorola/shadow/proprietary/lib/libFMRadio.so:system/lib/libFMRadio.so \
