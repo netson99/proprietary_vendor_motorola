@@ -48,7 +48,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/droid2we/proprietary/bin/btcmd:/system/bin/btcmd \
     vendor/motorola/droid2we/proprietary/bin/bthelp:/system/bin/bthelp \
     vendor/motorola/droid2we/proprietary/bin/bttest_mot:/system/bin/bttest_mot \
-    vendor/motorola/droid2we/proprietary/bin/charge_only_mode:/system/bin/charge_only_mode \
     vendor/motorola/droid2we/proprietary/bin/chat-ril:/system/bin/chat-ril \
     vendor/motorola/droid2we/proprietary/bin/dbvc_atvc_property_set:/system/bin/dbvc_atvc_property_set \
     vendor/motorola/droid2we/proprietary/bin/dmt:/system/bin/dmt \
@@ -117,11 +116,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/droid2we/proprietary/lib/dsp/wbamrenc_sn.dll64P:/system/lib/dsp/wbamrenc_sn.dll64P \
     vendor/motorola/droid2we/proprietary/lib/dsp/wmadec_sn.dll64P:/system/lib/dsp/wmadec_sn.dll64P \
     vendor/motorola/droid2we/proprietary/lib/dsp/wmv9dec_sn.dll64P:/system/lib/dsp/wmv9dec_sn.dll64P \
-    vendor/motorola/droid2we/proprietary/lib/libOMX.TI.AAC.decode.so:/system/lib/libOMX.TI.AAC.decode.so \
-    vendor/motorola/droid2we/proprietary/lib/libOMX.TI.AMR.decode.so:/system/lib/libOMX.TI.AMR.decode.so \
-    vendor/motorola/droid2we/proprietary/lib/libOMX.TI.MP3.decode.so:/system/lib/libOMX.TI.MP3.decode.so \
-    vendor/motorola/droid2we/proprietary/lib/libOMX.TI.WBAMR.decode.so:/system/lib/libOMX.TI.WBAMR.decode.so \
-    vendor/motorola/droid2we/proprietary/lib/libOMX.TI.WMA.decode.so:/system/lib/libOMX.TI.WMA.decode.so \
     vendor/motorola/droid2we/proprietary/lib/libWifiAPHardware.so:/system/lib/libWifiAPHardware.so \
     vendor/motorola/droid2we/proprietary/lib/libarcsoftpe.so:/system/lib/libarcsoftpe.so \
     vendor/motorola/droid2we/proprietary/lib/libarcsoft.so:/system/lib/libarcsoft.so \
@@ -151,7 +145,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/droid2we/proprietary/lib/libmtpstack.so:/system/lib/libmtpstack.so \
     vendor/motorola/droid2we/proprietary/lib/libnativedrm1.so:/system/lib/libnativedrm1.so \
     vendor/motorola/droid2we/proprietary/lib/liboemcamera.so:/system/lib/liboemcamera.so \
-    vendor/motorola/droid2we/proprietary/lib/libomx_arcomxcore_sharedlibrary.so:/system/lib/libomx_arcomxcore_sharedlibrary.so \
     vendor/motorola/droid2we/proprietary/lib/libpanorama.so:/system/lib/libpanorama.so \
     vendor/motorola/droid2we/proprietary/lib/libpanorama_jni.so:/system/lib/libpanorama_jni.so \
     vendor/motorola/droid2we/proprietary/lib/libpkip.so:/system/lib/libpkip.so \
@@ -190,7 +183,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/droid2we/proprietary/lib/librds_util.so:/system/lib/librds_util.so \
     vendor/motorola/droid2we/proprietary/lib/libsmiledetect.so:/system/lib/libsmiledetect.so \
     vendor/motorola/droid2we/proprietary/lib/libusc.so:/system/lib/libusc.so \
-    vendor/motorola/droid2we/proprietary/lib/libLCML.so:/system/lib/libLCML.so \
     vendor/motorola/droid2we/proprietary/lib/hw/lights.droid2we.so:/system/lib/hw/lights.droid2we.so \
     vendor/motorola/droid2we/proprietary/lib/hw/sensors.droid2we.so:/system/lib/hw/sensors.droid2we.so \
     vendor/motorola/droid2we/proprietary/lib/hw/gps.droid2we.so:/system/lib/hw/gps.droid2we.so
