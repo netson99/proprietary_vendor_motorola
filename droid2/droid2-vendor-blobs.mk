@@ -35,7 +35,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/droid2/proprietary/app/PhoneConfig.apk:/system/app/PhoneConfig.apk \
     vendor/motorola/droid2/proprietary/app/ProgramMenu.apk:/system/app/ProgramMenu.apk \
     vendor/motorola/droid2/proprietary/app/ProgramMenuSystem.apk:/system/app/ProgramMenuSystem.apk \
-    vendor/motorola/droid2/proprietary/app/Torch.apk:/system/app/Torch.apk \
     vendor/motorola/droid2/proprietary/app/Usb.apk:/system/app/Usb.apk 
 
 # All the blobs necessary for droid2
