@@ -35,7 +35,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shadow/proprietary/app/PhoneConfig.apk:/system/app/PhoneConfig.apk \
     vendor/motorola/shadow/proprietary/app/ProgramMenu.apk:/system/app/ProgramMenu.apk \
     vendor/motorola/shadow/proprietary/app/ProgramMenuSystem.apk:/system/app/ProgramMenuSystem.apk \
-    vendor/motorola/shadow/proprietary/app/Usb.apk:/system/app/Usb.apk 
 
 # All the blobs necessary for shadow
 PRODUCT_COPY_FILES += \

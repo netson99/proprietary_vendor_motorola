@@ -32,7 +32,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/droid2we/proprietary/app/PhoneConfig.apk:/system/app/PhoneConfig.apk \
     vendor/motorola/droid2we/proprietary/app/ProgramMenu.apk:/system/app/ProgramMenu.apk \
     vendor/motorola/droid2we/proprietary/app/ProgramMenuSystem.apk:/system/app/ProgramMenuSystem.apk \
-    vendor/motorola/droid2we/proprietary/app/Usb.apk:/system/app/Usb.apk 
 
 # Prebuilt binaries and services
 PRODUCT_COPY_FILES += \
