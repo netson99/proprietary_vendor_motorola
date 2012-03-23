@@ -30,7 +30,6 @@ PRODUCT_COPY_FILES := \
 
 PRODUCT_COPY_FILES += \
     vendor/motorola/shadow/proprietary/app/ExtDispService.apk:/system/app/ExtDispService.apk \
-    vendor/motorola/shadow/proprietary/app/FileManager.apk:/system/app/FileManager.apk \
     vendor/motorola/shadow/proprietary/app/FMRadio.apk:/system/app/FMRadio.apk \
     vendor/motorola/shadow/proprietary/app/FMRadioService.apk:/system/app/FMRadioService.apk \
     vendor/motorola/shadow/proprietary/app/PhoneConfig.apk:/system/app/PhoneConfig.apk \

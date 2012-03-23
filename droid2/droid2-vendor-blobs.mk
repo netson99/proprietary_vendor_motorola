@@ -29,7 +29,6 @@ PRODUCT_COPY_FILES := \
 #    vendor/motorola/droid2/proprietary/lib/hw/gralloc.omap3.so:obj/lib/hw/gralloc.omap3.so
 
 PRODUCT_COPY_FILES += \
-    vendor/motorola/droid2/proprietary/app/FileManager.apk:/system/app/FileManager.apk \
     vendor/motorola/droid2/proprietary/app/FMRadio.apk:/system/app/FMRadio.apk \
     vendor/motorola/droid2/proprietary/app/FMRadioService.apk:/system/app/FMRadioService.apk \
     vendor/motorola/droid2/proprietary/app/PhoneConfig.apk:/system/app/PhoneConfig.apk \
