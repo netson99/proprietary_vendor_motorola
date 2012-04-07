@@ -88,12 +88,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/droid2we/proprietary/etc/smc_pa_pk_4_ipa.bin:/system/etc/smc_pa_pk_4_ipa.bin \
     vendor/motorola/droid2we/proprietary/etc/supportedlocales.conf:/system/etc/supportedlocales.conf \
     vendor/motorola/droid2we/proprietary/etc/vzwpubagps.cer:/system/etc/vzwpubagps.cer \
-    vendor/motorola/droid2we/proprietary/etc/wifi/fw_tiwlan_ap.bin:/system/etc/wifi/fw_tiwlan_ap.bin \
-    vendor/motorola/droid2we/proprietary/etc/wifi/fw_wlan1271.bin:/system/etc/wifi/fw_wlan1271.bin \
     vendor/motorola/droid2we/proprietary/etc/wifi/hostapd.conf.templet:/system/etc/wifi/hostapd.conf.templet \
-    vendor/motorola/droid2we/proprietary/etc/wifi/tiwlan.ini:/system/etc/wifi/tiwlan.ini \
-    vendor/motorola/droid2we/proprietary/etc/wifi/tiwlan_ap.ini:/system/etc/wifi/tiwlan_ap.ini \
-    vendor/motorola/droid2we/proprietary/etc/wifi/wpa_supplicant.conf:/system/etc/wifi/wpa_supplicant.conf \
     vendor/motorola/droid2we/proprietary/lib/dsp/baseimage.dof:/system/lib/dsp/baseimage.dof \
     vendor/motorola/droid2we/proprietary/lib/dsp/conversions.dll64P:/system/lib/dsp/conversions.dll64P \
     vendor/motorola/droid2we/proprietary/lib/dsp/h264vdec_sn.dll64P:/system/lib/dsp/h264vdec_sn.dll64P \
