@@ -92,7 +92,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shadow/proprietary/etc/smc_pa_pk_4_ipa.bin:/system/etc/smc_pa_pk_4_ipa.bin \
     vendor/motorola/shadow/proprietary/etc/supportedlocales.conf:/system/etc/supportedlocales.conf \
     vendor/motorola/shadow/proprietary/etc/vzwpubagps.cer:/system/etc/vzwpubagps.cer \
+    vendor/motorola/shadow/proprietary/etc/wifi/fw_tiwlan_ap.bin:/system/etc/wifi/fw_tiwlan_ap.bin \
+    vendor/motorola/shadow/proprietary/etc/wifi/fw_wlan1271.bin:/system/etc/wifi/fw_wlan1271.bin \
     vendor/motorola/shadow/proprietary/etc/wifi/hostapd.conf.templet:/system/etc/wifi/hostapd.conf.templet \
+    vendor/motorola/shadow/proprietary/etc/wifi/tiwlan.ini:/system/etc/wifi/tiwlan.ini \
+    vendor/motorola/shadow/proprietary/etc/wifi/tiwlan_ap.ini:/system/etc/wifi/tiwlan_ap.ini \
+    vendor/motorola/shadow/proprietary/etc/wifi/wpa_supplicant.conf:/system/etc/wifi/wpa_supplicant.conf \
     vendor/motorola/shadow/proprietary/etc/permissions/platform.xml:/system/etc/permissions/platform.xml \
     vendor/motorola/shadow/proprietary/etc/permissions/com.motorola.android.iextdispservice.xml:/system/etc/permissions/com.motorola.android.iextdispservice.xml \
     vendor/motorola/shadow/proprietary/etc/permissions/com.motorola.android.nativehdmiapis_v1.xml:/system/etc/permissions/com.motorola.android.nativehdmiapis_v1.xml \
