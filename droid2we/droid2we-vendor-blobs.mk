@@ -94,25 +94,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/droid2we/proprietary/etc/wifi/tiwlan.ini:/system/etc/wifi/tiwlan.ini \
     vendor/motorola/droid2we/proprietary/etc/wifi/tiwlan_ap.ini:/system/etc/wifi/tiwlan_ap.ini \
     vendor/motorola/droid2we/proprietary/etc/wifi/wpa_supplicant.conf:/system/etc/wifi/wpa_supplicant.conf \
-    vendor/motorola/droid2we/proprietary/lib/dsp/baseimage.dof:/system/lib/dsp/baseimage.dof \
-    vendor/motorola/droid2we/proprietary/lib/dsp/conversions.dll64P:/system/lib/dsp/conversions.dll64P \
-    vendor/motorola/droid2we/proprietary/lib/dsp/h264vdec_sn.dll64P:/system/lib/dsp/h264vdec_sn.dll64P \
-    vendor/motorola/droid2we/proprietary/lib/dsp/h264venc_sn.dll64P:/system/lib/dsp/h264venc_sn.dll64P \
-    vendor/motorola/droid2we/proprietary/lib/dsp/jpegenc_sn.dll64P:/system/lib/dsp/jpegenc_sn.dll64P \
-    vendor/motorola/droid2we/proprietary/lib/dsp/m4venc_sn.dll64P:/system/lib/dsp/m4venc_sn.dll64P \
-    vendor/motorola/droid2we/proprietary/lib/dsp/mp3dec_sn.dll64P:/system/lib/dsp/mp3dec_sn.dll64P \
-    vendor/motorola/droid2we/proprietary/lib/dsp/mp4vdec_sn.dll64P:/system/lib/dsp/mp4vdec_sn.dll64P \
-    vendor/motorola/droid2we/proprietary/lib/dsp/mpeg4aacdec_sn.dll64P:/system/lib/dsp/mpeg4aacdec_sn.dll64P \
-    vendor/motorola/droid2we/proprietary/lib/dsp/mpeg4aacenc_sn.dll64P:/system/lib/dsp/mpeg4aacenc_sn.dll64P \
-    vendor/motorola/droid2we/proprietary/lib/dsp/nbamrdec_sn.dll64P:/system/lib/dsp/nbamrdec_sn.dll64P \
-    vendor/motorola/droid2we/proprietary/lib/dsp/nbamrenc_sn.dll64P:/system/lib/dsp/nbamrenc_sn.dll64P \
-    vendor/motorola/droid2we/proprietary/lib/dsp/postprocessor_dualout.dll64P:/system/lib/dsp/postprocessor_dualout.dll64P \
-    vendor/motorola/droid2we/proprietary/lib/dsp/ringio.dll64P:/system/lib/dsp/ringio.dll64P \
-    vendor/motorola/droid2we/proprietary/lib/dsp/usn.dll64P:/system/lib/dsp/usn.dll64P \
-    vendor/motorola/droid2we/proprietary/lib/dsp/wbamrdec_sn.dll64P:/system/lib/dsp/wbamrdec_sn.dll64P \
-    vendor/motorola/droid2we/proprietary/lib/dsp/wbamrenc_sn.dll64P:/system/lib/dsp/wbamrenc_sn.dll64P \
-    vendor/motorola/droid2we/proprietary/lib/dsp/wmadec_sn.dll64P:/system/lib/dsp/wmadec_sn.dll64P \
-    vendor/motorola/droid2we/proprietary/lib/dsp/wmv9dec_sn.dll64P:/system/lib/dsp/wmv9dec_sn.dll64P \
     vendor/motorola/droid2we/proprietary/lib/libWifiAPHardware.so:/system/lib/libWifiAPHardware.so \
     vendor/motorola/droid2we/proprietary/lib/libarcsoftpe.so:/system/lib/libarcsoftpe.so \
     vendor/motorola/droid2we/proprietary/lib/libarcsoft.so:/system/lib/libarcsoft.so \

@@ -26,7 +26,6 @@ PRODUCT_COPY_FILES := \
     vendor/motorola/shadow/proprietary/lib/libril_rds.so:obj/lib/libril_rds.so \
     vendor/motorola/shadow/proprietary/lib/librds_util.so:obj/lib/librds_util.so \
     vendor/motorola/shadow/proprietary/lib/libsmiledetect.so:obj/lib/libsmiledetect.so
-#    vendor/motorola/shadow/proprietary/lib/hw/gralloc.omap3.so:obj/lib/hw/gralloc.omap3.so
 
 PRODUCT_COPY_FILES += \
     vendor/motorola/shadow/proprietary/app/ExtDispService.apk:/system/app/ExtDispService.apk \
@@ -103,29 +102,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shadow/proprietary/etc/permissions/com.motorola.android.nativehdmiapis_v1.xml:/system/etc/permissions/com.motorola.android.nativehdmiapis_v1.xml \
     vendor/motorola/shadow/proprietary/framework/com.motorola.android.iextdispservice.jar:/system/framework/com.motorola.android.iextdispservice.jar \
     vendor/motorola/shadow/proprietary/framework/com.motorola.android.nativehdmiapis_v1.jar:/system/framework/com.motorola.android.nativehdmiapis_v1.jar \
-    vendor/motorola/shadow/proprietary/lib/dsp/baseimage.dof:/system/lib/dsp/baseimage.dof \
-    vendor/motorola/shadow/proprietary/lib/dsp/conversions.dll64P:/system/lib/dsp/conversions.dll64P \
-    vendor/motorola/shadow/proprietary/lib/dsp/h264vdec_sn.dll64P:/system/lib/dsp/h264vdec_sn.dll64P \
-    vendor/motorola/shadow/proprietary/lib/dsp/h264venc_sn.dll64P:/system/lib/dsp/h264venc_sn.dll64P \
-    vendor/motorola/shadow/proprietary/lib/dsp/720p_h264vdec_sn.dll64P:/system/lib/dsp/720p_h264vdec_sn.dll64P \
-    vendor/motorola/shadow/proprietary/lib/dsp/720p_h264venc_sn.dll64P:/system/lib/dsp/720p_h264venc_sn.dll64P \
-    vendor/motorola/shadow/proprietary/lib/dsp/jpegenc_sn.dll64P:/system/lib/dsp/jpegenc_sn.dll64P \
-    vendor/motorola/shadow/proprietary/lib/dsp/m4venc_sn.dll64P:/system/lib/dsp/m4venc_sn.dll64P \
-    vendor/motorola/shadow/proprietary/lib/dsp/m4venc_sn.dll64P:/system/lib/dsp/720p_m4venc_sn.dll64P \
-    vendor/motorola/shadow/proprietary/lib/dsp/mp3dec_sn.dll64P:/system/lib/dsp/mp3dec_sn.dll64P \
-    vendor/motorola/shadow/proprietary/lib/dsp/mp4vdec_sn.dll64P:/system/lib/dsp/mp4vdec_sn.dll64P \
-    vendor/motorola/shadow/proprietary/lib/dsp/mp4vdec_sn.dll64P:/system/lib/dsp/720p_mp4vdec_sn.dll64P \
-    vendor/motorola/shadow/proprietary/lib/dsp/mpeg4aacdec_sn.dll64P:/system/lib/dsp/mpeg4aacdec_sn.dll64P \
-    vendor/motorola/shadow/proprietary/lib/dsp/mpeg4aacenc_sn.dll64P:/system/lib/dsp/mpeg4aacenc_sn.dll64P \
-    vendor/motorola/shadow/proprietary/lib/dsp/nbamrdec_sn.dll64P:/system/lib/dsp/nbamrdec_sn.dll64P \
-    vendor/motorola/shadow/proprietary/lib/dsp/nbamrenc_sn.dll64P:/system/lib/dsp/nbamrenc_sn.dll64P \
-    vendor/motorola/shadow/proprietary/lib/dsp/postprocessor_dualout.dll64P:/system/lib/dsp/postprocessor_dualout.dll64P \
-    vendor/motorola/shadow/proprietary/lib/dsp/ringio.dll64P:/system/lib/dsp/ringio.dll64P \
-    vendor/motorola/shadow/proprietary/lib/dsp/usn.dll64P:/system/lib/dsp/usn.dll64P \
-    vendor/motorola/shadow/proprietary/lib/dsp/wbamrdec_sn.dll64P:/system/lib/dsp/wbamrdec_sn.dll64P \
-    vendor/motorola/shadow/proprietary/lib/dsp/wbamrenc_sn.dll64P:/system/lib/dsp/wbamrenc_sn.dll64P \
-    vendor/motorola/shadow/proprietary/lib/dsp/wmadec_sn.dll64P:/system/lib/dsp/wmadec_sn.dll64P \
-    vendor/motorola/shadow/proprietary/lib/dsp/wmv9dec_sn.dll64P:/system/lib/dsp/wmv9dec_sn.dll64P \
     vendor/motorola/shadow/proprietary/lib/libWifiAPHardware.so:/system/lib/libWifiAPHardware.so \
     vendor/motorola/shadow/proprietary/lib/libarcsoftpe.so:/system/lib/libarcsoftpe.so \
     vendor/motorola/shadow/proprietary/lib/libarcsoft.so:/system/lib/libarcsoft.so \
