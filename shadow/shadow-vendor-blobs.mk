@@ -55,7 +55,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shadow/proprietary/bin/fmradioserver:/system/bin/fmradioserver \
     vendor/motorola/shadow/proprietary/bin/ftmipcd:/system/bin/ftmipcd \
     vendor/motorola/shadow/proprietary/bin/gkilogd:/system/bin/gkilogd \
-    vendor/motorola/shadow/proprietary/bin/Hostapd:/system/bin/Hostapd \
     vendor/motorola/shadow/proprietary/bin/loadpreinstalls.sh:/system/bin/loadpreinstalls.sh \
     vendor/motorola/shadow/proprietary/bin/mdm_panicd:/system/bin/mdm_panicd \
     vendor/motorola/shadow/proprietary/bin/napics.sh:/system/bin/napics.sh \

@@ -35,7 +35,6 @@ PRODUCT_COPY_FILES += \
 
 # Prebuilt binaries and services
 PRODUCT_COPY_FILES += \
-    vendor/motorola/droid2we/proprietary/bin/Hostapd:/system/bin/Hostapd \
     vendor/motorola/droid2we/proprietary/bin/SaveBPVer:/system/bin/SaveBPVer \
     vendor/motorola/droid2we/proprietary/bin/akmd2:/system/bin/akmd2 \
     vendor/motorola/droid2we/proprietary/bin/ap_gain.bin:/system/bin/ap_gain.bin \
