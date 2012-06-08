@@ -169,6 +169,5 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shadow/proprietary/lib/libFMRadio.so:system/lib/libFMRadio.so \
     vendor/motorola/shadow/proprietary/lib/libfmradio_jni.so:system/lib/libfmradio_jni.so \
     vendor/motorola/shadow/proprietary/lib/libfmradioplayer.so:system/lib/libfmradioplayer.so \
-    vendor/motorola/shadow/proprietary/lib/hw/sensors.shadow.so:/system/lib/hw/sensors.shadow.so \
     vendor/motorola/shadow/proprietary/lib/hw/gps.shadow.so:/system/lib/hw/gps.shadow.so 
 
