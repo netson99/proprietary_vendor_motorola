@@ -51,7 +51,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/droid2/proprietary/bin/dmt:/system/bin/dmt \
     vendor/motorola/droid2/proprietary/bin/dund:/system/bin/dund \
     vendor/motorola/droid2/proprietary/bin/ecckeyd:/system/bin/ecckeyd \
-    vendor/motorola/droid2/proprietary/bin/fdisk:/system/bin/fdisk \
     vendor/motorola/droid2/proprietary/bin/firewall.sh:/system/bin/firewall.sh \
     vendor/motorola/droid2/proprietary/bin/fmradioserver:/system/bin/fmradioserver \
     vendor/motorola/droid2/proprietary/bin/ftmipcd:/system/bin/ftmipcd \

@@ -50,7 +50,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shadow/proprietary/bin/dmt:/system/bin/dmt \
     vendor/motorola/shadow/proprietary/bin/dund:/system/bin/dund \
     vendor/motorola/shadow/proprietary/bin/ecckeyd:/system/bin/ecckeyd \
-    vendor/motorola/shadow/proprietary/bin/fdisk:/system/bin/fdisk \
     vendor/motorola/shadow/proprietary/bin/firewall.sh:/system/bin/firewall.sh \
     vendor/motorola/shadow/proprietary/bin/fmradioserver:/system/bin/fmradioserver \
     vendor/motorola/shadow/proprietary/bin/ftmipcd:/system/bin/ftmipcd \
