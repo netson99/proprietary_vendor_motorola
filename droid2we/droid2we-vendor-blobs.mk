@@ -161,4 +161,5 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/droid2we/proprietary/lib/librds_util.so:/system/lib/librds_util.so \
     vendor/motorola/droid2we/proprietary/lib/libsmiledetect.so:/system/lib/libsmiledetect.so \
     vendor/motorola/droid2we/proprietary/lib/libusc.so:/system/lib/libusc.so \
+    vendor/motorola/droid2we/proprietary/lib/hw/sensors.droid2we.so:/system/lib/hw/sensors.droid2we.so \
     vendor/motorola/droid2we/proprietary/lib/hw/gps.droid2we.so:/system/lib/hw/gps.droid2we.so
