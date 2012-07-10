@@ -20,6 +20,7 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/ti_sgx_es5.x/libGLESv2_POWERVR_SGX530_125.so:/system/lib/egl/libGLESv2_POWERVR_SGX530_125.so \
 	vendor/motorola/ti_sgx_es5.x/libpvr2d.so:/system/lib/libpvr2d.so \
 	vendor/motorola/ti_sgx_es5.x/libeglinfo.so:/system/lib/libeglinfo.so \
+	vendor/motorola/ti_sgx_es5.x/libHPImgApi.so:/system/lib/libHPImgApi.so \
 	vendor/motorola/ti_sgx_es5.x/libusc.so:/system/lib/libusc.so \
 	vendor/motorola/ti_sgx_es5.x/libglslcompiler.so:/system/lib/libglslcompiler.so \
 	vendor/motorola/ti_sgx_es5.x/libpvrANDROID_WSEGL.so:/system/lib/libpvrANDROID_WSEGL.so \
