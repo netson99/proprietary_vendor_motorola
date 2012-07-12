@@ -14,6 +14,7 @@
 
 # TI SGX DDK 1.8 ES 5.x
 PRODUCT_COPY_FILES += \
+	vendor/motorola/ti_sgx_es5.x/powervr.ini:system/etc/powervr.ini \
 	vendor/motorola/ti_sgx_es5.x/gralloc.omap3.so:/system/lib/hw/gralloc.omap3.so \
 	vendor/motorola/ti_sgx_es5.x/libEGL_POWERVR_SGX530_125.so:/system/lib/egl/libEGL_POWERVR_SGX530_125.so \
 	vendor/motorola/ti_sgx_es5.x/libGLESv1_CM_POWERVR_SGX530_125.so:/system/lib/egl/libGLESv1_CM_POWERVR_SGX530_125.so \
