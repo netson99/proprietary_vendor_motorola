@@ -109,7 +109,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shadow/proprietary/lib/libdmengine.so:/system/lib/libdmengine.so \
     vendor/motorola/shadow/proprietary/lib/libdmjavaplugin.so:/system/lib/libdmjavaplugin.so \
     vendor/motorola/shadow/proprietary/lib/libextdisp.so:/system/lib/libextdisp.so \
-    vendor/motorola/shadow/proprietary/lib/libglslcompiler.so:/system/lib/libglslcompiler.so \
     vendor/motorola/shadow/proprietary/lib/libhdmi.so:/system/lib/libhdmi.so \
     vendor/motorola/shadow/proprietary/lib/libhostapd_client.so:/system/lib/libhostapd_client.so \
     vendor/motorola/shadow/proprietary/lib/libimage_jni.so:/system/lib/libimage_jni.so \

@@ -103,7 +103,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/droid2/proprietary/lib/libcryptoki.so:/system/lib/libcryptoki.so \
     vendor/motorola/droid2/proprietary/lib/libdmengine.so:/system/lib/libdmengine.so \
     vendor/motorola/droid2/proprietary/lib/libdmjavaplugin.so:/system/lib/libdmjavaplugin.so \
-    vendor/motorola/droid2/proprietary/lib/libglslcompiler.so:/system/lib/libglslcompiler.so \
     vendor/motorola/droid2/proprietary/lib/libhostapd_client.so:/system/lib/libhostapd_client.so \
     vendor/motorola/droid2/proprietary/lib/libimage_jni.so:/system/lib/libimage_jni.so \
     vendor/motorola/droid2/proprietary/lib/libjanus.so:/system/lib/libjanus.so \
