@@ -155,7 +155,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shadow/proprietary/lib/libril_rds.so:/system/lib/libril_rds.so \
     vendor/motorola/shadow/proprietary/lib/librds_util.so:/system/lib/librds_util.so \
     vendor/motorola/shadow/proprietary/lib/libsmiledetect.so:/system/lib/libsmiledetect.so \
-    vendor/motorola/shadow/proprietary/lib/libbridge.so:/system/lib/libbridge.so \
     vendor/motorola/shadow/proprietary/lib/libpppd_plugin-ril.so:/system/lib/libpppd_plugin-ril.so \
     vendor/motorola/shadow/proprietary/lib/libusc.so:/system/lib/libusc.so \
     vendor/motorola/shadow/proprietary/lib/libFMRadio.so:system/lib/libFMRadio.so \

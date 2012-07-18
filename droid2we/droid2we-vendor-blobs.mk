@@ -151,7 +151,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/droid2we/proprietary/bin/battd.so:/system/bin/battd \
     vendor/motorola/droid2we/proprietary/lib/libaudio.so:/system/lib/libaudio.so \
     vendor/motorola/droid2we/proprietary/lib/libbattd.so:/system/lib/libattd.so \
-    vendor/motorola/droid2we/proprietary/lib/libbridge.so:/system/lib/libbridge.so \
     vendor/motorola/droid2we/proprietary/lib/libcamera.so:/system/lib/libcamera.so \
     vendor/motorola/droid2we/proprietary/lib/libmoto_ril.so:/system/lib/libmoto_ril.so \
     vendor/motorola/droid2we/proprietary/lib/libnmea.so:/system/lib/libnmea.so \

@@ -154,7 +154,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/droid2/proprietary/lib/libril_rds.so:/system/lib/libril_rds.so \
     vendor/motorola/droid2/proprietary/lib/librds_util.so:/system/lib/librds_util.so \
     vendor/motorola/droid2/proprietary/lib/libsmiledetect.so:/system/lib/libsmiledetect.so \
-    vendor/motorola/droid2/proprietary/lib/libbridge.so:/system/lib/libbridge.so \
     vendor/motorola/droid2/proprietary/lib/libmoto_ril.so:/system/lib/libmoto_ril.so \
     vendor/motorola/droid2/proprietary/lib/libpppd_plugin-ril.so:/system/lib/libpppd_plugin-ril.so \
     vendor/motorola/droid2/proprietary/lib/libbattd.so:/system/lib/libattd.so \
