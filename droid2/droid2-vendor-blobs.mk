@@ -149,6 +149,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/droid2/proprietary/xbin/run_restore:/system/xbin/run_restore \
     vendor/motorola/droid2/proprietary/xbin/ssmgrd:/system/xbin/ssmgrd \
     vendor/motorola/droid2/proprietary/lib/libaudio.so:/system/lib/libaudio.so \
+    vendor/motorola/droid2/proprietary/lib/libLCML.so:/system/lib/libLCML.so \
     vendor/motorola/droid2/proprietary/lib/libcamera.so:/system/lib/libcamera.so \
     vendor/motorola/droid2/proprietary/lib/libnmea.so:/system/lib/libnmea.so \
     vendor/motorola/droid2/proprietary/lib/libril_rds.so:/system/lib/libril_rds.so \

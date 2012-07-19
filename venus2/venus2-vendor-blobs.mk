@@ -67,6 +67,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/venus2/proprietary/bin/tcmd:/system/bin/tcmd \
     vendor/motorola/venus2/proprietary/bin/testpppd:/system/bin/testpppd \
     vendor/motorola/venus2/proprietary/bin/tstmetainfo:/system/bin/tstmetainfo \
+    vendor/motorola/venus2/proprietary/lib/libLCML.so:/system/lib/libLCML.so \
     #vendor/motorola/venus2/proprietary/bin/usbd:/system/bin/usbd \
     vendor/motorola/venus2/proprietary/etc/cameraCalFileDef5M.bin:/system/etc/cameraCalFileDef5M.bin \
     vendor/motorola/venus2/proprietary/etc/cameraCalFileDef5M.bin:/system/etc/cameraCalFileDef5M.bin \

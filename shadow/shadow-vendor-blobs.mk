@@ -150,6 +150,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shadow/proprietary/xbin/run_restore:/system/xbin/run_restore \
     vendor/motorola/shadow/proprietary/xbin/ssmgrd:/system/xbin/ssmgrd \
     vendor/motorola/shadow/proprietary/lib/libaudio.so:/system/lib/libaudio.so \
+    vendor/motorola/shadow/proprietary/lib/libLCML.so:/system/lib/libLCML.so \
     vendor/motorola/shadow/proprietary/lib/libcamera.so:/system/lib/libcamera.so \
     vendor/motorola/shadow/proprietary/lib/libnmea.so:/system/lib/libnmea.so \
     vendor/motorola/shadow/proprietary/lib/libril_rds.so:/system/lib/libril_rds.so \
