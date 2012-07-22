@@ -26,7 +26,6 @@ PRODUCT_COPY_FILES := \
 
 PRODUCT_COPY_FILES += \
     vendor/motorola/venus2/proprietary/app/PhoneConfig.apk:/system/app/PhoneConfig.apk \
-    vendor/motorola/venus2/proprietary/app/Usb.apk:/system/app/Usb.apk \
     vendor/motorola/venus2/proprietary/app/FileManager.apk:/system/app/FileManager.apk \
     vendor/motorola/venus2/proprietary/app/ProgramMenu.apk:/system/app/ProgramMenu.apk \
     vendor/motorola/venus2/proprietary/app/ProgramMenuSystem.apk:/system/app/ProgramMenuSystem.apk
@@ -67,7 +66,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/venus2/proprietary/bin/tcmd:/system/bin/tcmd \
     vendor/motorola/venus2/proprietary/bin/testpppd:/system/bin/testpppd \
     vendor/motorola/venus2/proprietary/bin/tstmetainfo:/system/bin/tstmetainfo \
-    #vendor/motorola/venus2/proprietary/bin/usbd:/system/bin/usbd \
     vendor/motorola/venus2/proprietary/etc/cameraCalFileDef5M.bin:/system/etc/cameraCalFileDef5M.bin \
     vendor/motorola/venus2/proprietary/etc/cameraCalFileDef5M.bin:/system/etc/cameraCalFileDef5M.bin \
     vendor/motorola/venus2/proprietary/etc/excluded-input-devices.xml:/system/etc/excluded-input-devices.xml \
@@ -109,6 +107,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/venus2/proprietary/lib/dsp/wmadec_sn.dll64P:/system/lib/dsp/wmadec_sn.dll64P \
     vendor/motorola/venus2/proprietary/lib/dsp/wmv9dec_sn.dll64P:/system/lib/dsp/wmv9dec_sn.dll64P \
     vendor/motorola/venus2/proprietary/lib/hw/gps.venus2.so:/system/lib/hw/gps.venus2.so \
+    vendor/motorola/venus2/proprietary/lib/hw/gralloc.omap3.so:/system/lib/hw/gralloc.omap3.so \
     vendor/motorola/venus2/proprietary/lib/hw/sensors.venus2.so:/system/lib/hw/sensors.venus2.so \
     vendor/motorola/venus2/proprietary/lib/hw/lights.venus2.so:/system/lib/hw/sensors.venus2.so \
     vendor/motorola/venus2/proprietary/lib/libarcsoftpe.so:/system/lib/libarcsoftpe.so \
