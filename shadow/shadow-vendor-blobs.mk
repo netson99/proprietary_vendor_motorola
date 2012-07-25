@@ -123,6 +123,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shadow/proprietary/lib/libmtp_jni.so:/system/lib/libmtp_jni.so \
     vendor/motorola/shadow/proprietary/lib/libOMX.TI.720P.Decoder.so:/system/lib/libOMX.TI.720P.Decoder.so \
     vendor/motorola/shadow/proprietary/lib/libOMX.TI.720P.Encoder.so:/system/lib/libOMX.TI.720P.Encoder.so \
+    vendor/motorola/shadow/proprietary/lib/libOMX.TI.JPEG.Encoder.so:/system/lib/libOMX.TI.JPEG.Encoder.so \
     vendor/motorola/shadow/proprietary/lib/libmtpstack.so:/system/lib/libmtpstack.so \
     vendor/motorola/shadow/proprietary/lib/libnativedrm1.so:/system/lib/libnativedrm1.so \
     vendor/motorola/shadow/proprietary/lib/liboemcamera.so:/system/lib/liboemcamera.so \
