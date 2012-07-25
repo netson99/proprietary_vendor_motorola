@@ -124,6 +124,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/droid2/proprietary/lib/libnativedrm1.so:/system/lib/libnativedrm1.so \
     vendor/motorola/droid2/proprietary/lib/libOMX.TI.720P.Decoder.so:/system/lib/libOMX.TI.720P.Decoder.so \
     vendor/motorola/droid2/proprietary/lib/libOMX.TI.720P.Encoder.so:/system/lib/libOMX.TI.720P.Encoder.so \
+    vendor/motorola/droid2/proprietary/lib/libOMX.TI.JPEG.Encoder.so:/system/lib/libOMX.TI.JPEG.Encoder.so \
     vendor/motorola/droid2/proprietary/lib/liboemcamera.so:/system/lib/liboemcamera.so \
     vendor/motorola/droid2/proprietary/lib/libpanorama.so:/system/lib/libpanorama.so \
     vendor/motorola/droid2/proprietary/lib/libpanorama_jni.so:/system/lib/libpanorama_jni.so \
